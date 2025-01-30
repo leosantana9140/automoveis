@@ -1,0 +1,8 @@
+package br.com.auto.exception;
+
+public class NotFoundException extends RuntimeException {
+
+    public NotFoundException(String mensagem) {
+        super(mensagem);
+    }
+}
