@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AutomovelForm {
-
     @NotBlank(message = "A marca do automóvel deve ser informada.")
     private String marca;
 
@@ -21,5 +20,4 @@ public class AutomovelForm {
 
     @NotNull(message = "O valor do automóvel deve ser informado.")
     private BigDecimal valor;
-
 }

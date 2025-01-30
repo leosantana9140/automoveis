@@ -16,7 +16,6 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Table(name = "TbAutomovel")
 public class Automovel {
-
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
@@ -28,5 +27,4 @@ public class Automovel {
     private BigDecimal valor;
 
     private LocalDateTime dataCadastro;
-
 }
